@@ -10,12 +10,6 @@ let recordedData;
 let sentTime = Date.now();
 let currentFrame = 0;
 
-let pos = {};
-let nPos = {};
-let angle = 0;
-
-const numJoints = 2;
-let kinectJointPos = {};
 let joints = [];
 
 init();
